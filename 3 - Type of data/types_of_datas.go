@@ -1,6 +1,7 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 )
 
@@ -38,4 +39,20 @@ func main() {
 
 	char := 'a'
 	fmt.Println(char)
+
+	// bool
+
+	var boollean bool = false
+	fmt.Println(boollean)
+
+	var boollean1 bool
+	fmt.Println(boollean1)
+
+	// error
+
+	var err error = errors.New("Error internal")
+	fmt.Println(err)
+
+	var err1 error
+	fmt.Println(err1)
 }
